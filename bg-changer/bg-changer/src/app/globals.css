@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inner-div{
+  padding: 6px;
+  width: fit-content;
+  display: flex;
+  height: 100vh;
+  width: fit-content;
+  float: right;
+  align-items: center;
+  
+}
+.bar-div{
+  right: 1rem;
+  position: fixed;
+  justify-content: center;
+  width: min-content;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+ .button{
+  box-shadow: inset black 2px 2px 4;
+ }
